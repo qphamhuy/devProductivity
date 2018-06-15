@@ -42,6 +42,9 @@ nnoremap d "0d
 nnoremap x "0x
 nnoremap c "0c
 
+" Case sensitivity
+nmap <F9> :set ignorecase! ignorecase?<CR>
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
