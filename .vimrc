@@ -42,6 +42,9 @@ nnoremap d "0d
 nnoremap x "0x
 nnoremap c "0c
 
+" Ack
+nnoremap <Leader>a :Ack -i <cword> .<CR>
+
 " Case sensitivity
 nmap <F9> :set ignorecase! ignorecase?<CR>
 
@@ -62,6 +65,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'mileszs/ack.vim'
 " " plugin from http://vim-scripts.org/vim/scripts.html
 " " Plugin 'L9'
 " " Git plugin not hosted on GitHub
